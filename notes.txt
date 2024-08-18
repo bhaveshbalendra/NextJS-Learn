@@ -1,0 +1,7 @@
+interface Params {
+  product: string;
+}
+
+const Page: React.FC<{ params: Params }> = function Page({ params }) {
+  return <h1>Hello</h1>;
+};
